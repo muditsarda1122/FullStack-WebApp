@@ -69,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # FullStack-WebApp
+
+This is the code for a full-stack web application where I have used React for the front end and Django for the back end. These both communicate using REST API. The code for the front end can be found in this repository. After cloning it, run:
+### `npm start`
+to load the front end on localhost. The code for the back end can be found in the submodule. After cloning it, you can locate the required installations in the 'requirements.txt' file which must be installed before moving forward. Remember to update the 'SECRET_KEY' in the file 'settings.py' to suit your Django backend. After that, you can start the server by running:
+### `npm start`
+
